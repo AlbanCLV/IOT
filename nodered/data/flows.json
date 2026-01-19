@@ -1,0 +1,163 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Test Plante",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "mosquitto_local",
+        "type": "mqtt-broker",
+        "name": "Mosquitto Docker",
+        "broker": "mosquitto",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "influx_conf",
+        "type": "influxdb",
+        "hostname": "influxdb",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "InfluxDB V2 Docker",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://influxdb:8086",
+        "timeout": "",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "d8b3c2a1.5e6f8",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "name": "Réception Plante",
+        "topic": "maison/plante/data",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "mosquitto_local",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "e4a5b6c7.8d9e0f",
+                "a1b2c3d4.5e6f7"
+            ]
+        ]
+    },
+    {
+        "id": "e4a5b6c7.8d9e0f",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "AFFICHE TOUT ICI",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a1b2c3d4.5e6f7",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "b2c3d4e5.6f7a8",
+                "format_influx"
+            ]
+        ]
+    },
+    {
+        "id": "b2c3d4e5.6f7a8",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "Objet Converti",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "format_influx",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Formatage pour InfluxDB",
+        "func": "// On récupère et convertit les valeurs\nvar temp = parseFloat(msg.payload.temperature);\nvar hum = Number(msg.payload.humidite);\nvar lux = Number(msg.payload.luminosite);\nvar hum_sol = Number(msg.payload.humidite_sol);\n\n// Sécurité : si ce n'est pas un nombre, on arrête tout\nif (isNaN(temp) || isNaN(hum) || isNaN(lux) || isNaN(hum_sol)) {\n    return null;\n}\n\n// ON ENVOIE JUSTE LES VALEURS (Pas de \"measurement\", pas de \"fields\", pas de crochets [])\nmsg.payload = {\n    temperature: temp,\n    humidite: hum,\n    luminosite: lux,\n    humidite_sol: hum_sol\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 140,
+        "wires": [
+            [
+                "influx_node"
+            ]
+        ]
+    },
+    {
+        "id": "influx_node",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "influx_conf",
+        "name": "Envoi InfluxDB",
+        "measurement": "monitor_plante",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "maison",
+        "bucket": "plante_data",
+        "x": 990,
+        "y": 140,
+        "wires": []
+    }
+]

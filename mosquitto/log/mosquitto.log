@@ -1,0 +1,160 @@
+1768557278: mosquitto version 2.0.22 starting
+1768557278: Config loaded from /mosquitto/config/mosquitto.conf.
+1768557278: Opening ipv4 listen socket on port 1883.
+1768557278: Opening websockets listen socket on port 9001.
+1768557278: mosquitto version 2.0.22 running
+1768558709: New connection from 192.168.97.1:43654 on port 1883.
+1768558709: New connection from 192.168.97.1:43664 on port 1883.
+1768558709: Client <unknown> disconnected due to protocol error.
+1768558709: Client <unknown> disconnected due to protocol error.
+1768558710: New connection from 192.168.97.1:43676 on port 1883.
+1768558710: New connection from 192.168.97.1:43688 on port 1883.
+1768558710: Client <unknown> disconnected due to protocol error.
+1768558710: Client <unknown> disconnected due to protocol error.
+1768559274: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768560596: New connection from 192.168.97.1:28560 on port 1883.
+1768560596: New client connected from 192.168.97.1:28560 as Passerelle_UnoR4 (p2, c1, k60).
+1768561075: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768561083: Client Passerelle_UnoR4 has exceeded timeout, disconnecting.
+1768561698: New connection from 192.168.97.1:34242 on port 1883.
+1768561698: New client connected from 192.168.97.1:34242 as Passerelle_UnoR4 (p2, c1, k60).
+1768562087: New connection from 192.168.97.5:52738 on port 1883.
+1768562087: New client connected from 192.168.97.5:52738 as noderedd8228e7d0b349da2 (p2, c1, k60).
+1768562622: Client noderedd8228e7d0b349da2 disconnected.
+1768562622: New connection from 192.168.97.5:40164 on port 1883.
+1768562622: New client connected from 192.168.97.5:40164 as nodered41e984a56e477385 (p2, c1, k60).
+1768562876: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768563142: Client nodered41e984a56e477385 disconnected.
+1768563142: New connection from 192.168.97.5:43452 on port 1883.
+1768563142: New client connected from 192.168.97.5:43452 as noderedadb1e27ba28b4980 (p2, c1, k60).
+1768563287: Client Passerelle_UnoR4 has exceeded timeout, disconnecting.
+1768563347: New connection from 192.168.97.1:62540 on port 1883.
+1768563347: New client connected from 192.168.97.1:62540 as Passerelle_UnoR4 (p2, c1, k60).
+1768563732: Client Passerelle_UnoR4 has exceeded timeout, disconnecting.
+1768564090: Client noderedadb1e27ba28b4980 disconnected.
+1768564090: mosquitto version 2.0.22 terminating
+1768564090: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768564107: mosquitto version 2.0.22 starting
+1768564107: Config loaded from /mosquitto/config/mosquitto.conf.
+1768564107: Opening ipv4 listen socket on port 1883.
+1768564107: Opening websockets listen socket on port 9001.
+1768564107: mosquitto version 2.0.22 running
+1768564108: New connection from 192.168.97.5:50946 on port 1883.
+1768564108: New client connected from 192.168.97.5:50946 as nodered3fdab9fd5c107007 (p2, c1, k60).
+1768564312: New connection from 192.168.97.1:51266 on port 1883.
+1768564312: New client connected from 192.168.97.1:51266 as Passerelle_UnoR4 (p2, c1, k60).
+1768564364: Client nodered3fdab9fd5c107007 disconnected.
+1768564364: New connection from 192.168.97.5:39806 on port 1883.
+1768564364: New client connected from 192.168.97.5:39806 as nodered824bf0e3a347ec76 (p2, c1, k60).
+1768564663: Client nodered824bf0e3a347ec76 disconnected.
+1768564663: New connection from 192.168.97.5:36544 on port 1883.
+1768564663: New client connected from 192.168.97.5:36544 as nodered94e8ef5bdebb757d (p2, c1, k60).
+1768564865: Client nodered94e8ef5bdebb757d disconnected.
+1768564865: New connection from 192.168.97.5:47746 on port 1883.
+1768564865: New client connected from 192.168.97.5:47746 as nodered49c45b37d69083b7 (p2, c1, k60).
+1768564912: Client nodered49c45b37d69083b7 disconnected.
+1768564912: mosquitto version 2.0.22 terminating
+1768564912: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768564923: mosquitto version 2.0.22 starting
+1768564923: Config loaded from /mosquitto/config/mosquitto.conf.
+1768564923: Opening ipv4 listen socket on port 1883.
+1768564923: Opening websockets listen socket on port 9001.
+1768564923: mosquitto version 2.0.22 running
+1768564924: New connection from 192.168.97.4:48900 on port 1883.
+1768564924: New client connected from 192.168.97.4:48900 as noderedc926260197d04f78 (p2, c1, k60).
+1768564928: New connection from 192.168.97.1:24066 on port 1883.
+1768564928: New client connected from 192.168.97.1:24066 as Passerelle_UnoR4 (p2, c1, k60).
+1768565122: Client noderedc926260197d04f78 disconnected.
+1768565122: New connection from 192.168.97.4:59922 on port 1883.
+1768565122: New client connected from 192.168.97.4:59922 as nodered620a0954725d06b5 (p2, c1, k60).
+1768565643: Client nodered620a0954725d06b5 disconnected.
+1768565643: New connection from 192.168.97.4:60192 on port 1883.
+1768565643: New client connected from 192.168.97.4:60192 as noderedc8fae58f3ff7164c (p2, c1, k60).
+1768566228: New connection from 192.168.97.1:41559 on port 1883.
+1768566228: Client Passerelle_UnoR4 already connected, closing old connection.
+1768566228: New client connected from 192.168.97.1:41559 as Passerelle_UnoR4 (p2, c1, k60).
+1768566724: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768566838: Client noderedc8fae58f3ff7164c disconnected.
+1768566838: New connection from 192.168.97.4:57608 on port 1883.
+1768566838: New client connected from 192.168.97.4:57608 as noderedd792662962fa965b (p2, c1, k60).
+1768566945: Client noderedd792662962fa965b disconnected.
+1768566945: New connection from 192.168.97.4:55286 on port 1883.
+1768566945: New client connected from 192.168.97.4:55286 as noderedd5b0e6d39ba9ec4d (p2, c1, k60).
+1768567793: Client noderedd5b0e6d39ba9ec4d disconnected.
+1768567794: mosquitto version 2.0.22 terminating
+1768567794: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768567813: mosquitto version 2.0.22 starting
+1768567813: Config loaded from /mosquitto/config/mosquitto.conf.
+1768567813: Opening ipv4 listen socket on port 1883.
+1768567813: Opening websockets listen socket on port 9001.
+1768567813: mosquitto version 2.0.22 running
+1768567814: New connection from 192.168.97.4:37104 on port 1883.
+1768567814: New client connected from 192.168.97.4:37104 as nodered9445945b10ad9000 (p2, c1, k60).
+1768567825: New connection from 192.168.97.1:59139 on port 1883.
+1768567825: New client connected from 192.168.97.1:59139 as Passerelle_UnoR4 (p2, c1, k60).
+1768567948: Client nodered9445945b10ad9000 disconnected.
+1768567948: New connection from 192.168.97.4:37042 on port 1883.
+1768567948: New client connected from 192.168.97.4:37042 as nodered508f60533e5775fe (p2, c1, k60).
+1768568015: Client nodered508f60533e5775fe disconnected.
+1768568015: New connection from 192.168.97.4:42454 on port 1883.
+1768568015: New client connected from 192.168.97.4:42454 as nodered3b9285216d5070a5 (p2, c1, k60).
+1768568512: Client nodered3b9285216d5070a5 disconnected.
+1768568512: New connection from 192.168.97.4:57258 on port 1883.
+1768568512: New client connected from 192.168.97.4:57258 as nodered36085ff3ea40403c (p2, c1, k60).
+1768568847: Client Passerelle_UnoR4 has exceeded timeout, disconnecting.
+1768569614: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768571415: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768571657: New connection from 192.168.97.1:23799 on port 1883.
+1768571657: New client connected from 192.168.97.1:23799 as Gateway_R4 (p2, c1, k60).
+1768571728: Client nodered36085ff3ea40403c disconnected.
+1768571728: New connection from 192.168.97.4:34382 on port 1883.
+1768571728: New client connected from 192.168.97.4:34382 as nodered9204c1892f33eab6 (p2, c1, k60).
+1768571758: New connection from 192.168.97.1:25140 on port 1883.
+1768571758: Client Gateway_R4 already connected, closing old connection.
+1768571758: New client connected from 192.168.97.1:25140 as Gateway_R4 (p2, c1, k60).
+1768571798: New connection from 192.168.97.1:45040 on port 1883.
+1768571798: Client Gateway_R4 already connected, closing old connection.
+1768571798: New client connected from 192.168.97.1:45040 as Gateway_R4 (p2, c1, k60).
+1768571830: New connection from 192.168.97.1:43754 on port 1883.
+1768571830: Client Gateway_R4 already connected, closing old connection.
+1768571830: New client connected from 192.168.97.1:43754 as Gateway_R4 (p2, c1, k60).
+1768571843: Client Gateway_R4 closed its connection.
+1768571843: New connection from 192.168.97.1:31354 on port 1883.
+1768571843: New client connected from 192.168.97.1:31354 as Gateway_R4 (p2, c1, k60).
+1768572774: Client nodered9204c1892f33eab6 disconnected.
+1768572774: New connection from 192.168.97.4:50420 on port 1883.
+1768572774: New client connected from 192.168.97.4:50420 as nodered08f068307ab02b3c (p2, c1, k60).
+1768572829: Client nodered08f068307ab02b3c disconnected.
+1768572829: New connection from 192.168.97.4:42606 on port 1883.
+1768572829: New client connected from 192.168.97.4:42606 as nodereda2870e236eb3e3c6 (p2, c1, k60).
+1768572841: Client nodereda2870e236eb3e3c6 disconnected.
+1768572842: mosquitto version 2.0.22 terminating
+1768572842: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768572844: mosquitto version 2.0.22 starting
+1768572844: Config loaded from /mosquitto/config/mosquitto.conf.
+1768572844: Opening ipv4 listen socket on port 1883.
+1768572844: Opening websockets listen socket on port 9001.
+1768572844: mosquitto version 2.0.22 running
+1768572846: New connection from 192.168.97.4:47604 on port 1883.
+1768572846: New client connected from 192.168.97.4:47604 as noderedff50ab5384b4f22a (p2, c1, k60).
+1768572848: Client noderedff50ab5384b4f22a disconnected.
+1768572848: mosquitto version 2.0.22 terminating
+1768572848: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768572856: mosquitto version 2.0.22 starting
+1768572856: Config loaded from /mosquitto/config/mosquitto.conf.
+1768572856: Opening ipv4 listen socket on port 1883.
+1768572856: Opening websockets listen socket on port 9001.
+1768572856: mosquitto version 2.0.22 running
+1768572856: New connection from 192.168.97.5:42402 on port 1883.
+1768572856: New client connected from 192.168.97.5:42402 as nodered8f1f0bde0508a98d (p2, c1, k60).
+1768572863: New connection from 192.168.97.1:23291 on port 1883.
+1768572863: New client connected from 192.168.97.1:23291 as Gateway_R4 (p2, c1, k60).
+1768572900: Client nodered8f1f0bde0508a98d disconnected.
+1768572900: New connection from 192.168.97.5:36186 on port 1883.
+1768572900: New client connected from 192.168.97.5:36186 as nodered1126a447a2fbe2a4 (p2, c1, k60).
+1768574656: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768576458: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768576775: Client Gateway_R4 has exceeded timeout, disconnecting.
+1768576910: Client nodered1126a447a2fbe2a4 disconnected.
+1768576910: mosquitto version 2.0.22 terminating
+1768576910: Saving in-memory database to /mosquitto/data//mosquitto.db.

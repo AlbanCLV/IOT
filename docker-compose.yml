@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  # --- BROKER MQTT (Le Transporteur) ---
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: iot_mosquitto
+    restart: always
+    ports:
+      - "1883:1883" # Port Standard
+      - "9001:9001" # Port Websocket (pour debug web)
+      # - "8883:8883" # Décommenter si tu as tes certificats SSL
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+
+  # --- LOGIQUE & AUTOMATISATION (Le Cerveau) ---
+  node-red:
+    image: nodered/node-red:latest
+    container_name: iot_nodered
+    restart: always
+    environment:
+      - TZ=Europe/Paris
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./nodered/data:/data
+    depends_on:
+      - mosquitto
+      - influxdb
+
+  # --- BASE DE DONNÉES (La Mémoire) ---
+  influxdb:
+    image: influxdb:2.7
+    container_name: iot_influxdb
+    restart: always
+    ports:
+      - "8086:8086"
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=admin
+      - DOCKER_INFLUXDB_INIT_PASSWORD=adminpassword # Change-le !
+      - DOCKER_INFLUXDB_INIT_ORG=maison
+      - DOCKER_INFLUXDB_INIT_BUCKET=plante_data
+    volumes:
+      - ./influxdb/data:/var/lib/influxdb2
+
+  # --- TABLEAU DE BORD (Le Visage) ---
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: iot_grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./grafana/data:/var/lib/grafana
+    depends_on:
+      - influxdb
