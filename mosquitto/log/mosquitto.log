@@ -192,3 +192,13 @@
 1768902852: New client connected from 172.20.0.5:42410 as nodered84ebbd69402230cc (p2, c1, k60).
 1768903010: mosquitto version 2.0.22 terminating
 1768903010: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768903011: mosquitto version 2.0.22 starting
+1768903011: Config loaded from /mosquitto/config/mosquitto.conf.
+1768903011: Opening ipv4 listen socket on port 1883.
+1768903011: Opening ipv6 listen socket on port 1883.
+1768903011: Opening websockets listen socket on port 9001.
+1768903011: Opening ipv4 listen socket on port 8883.
+1768903011: Opening ipv6 listen socket on port 8883.
+1768903011: mosquitto version 2.0.22 running
+1768903025: New connection from 172.20.0.5:50766 on port 1883.
+1768903025: New client connected from 172.20.0.5:50766 as nodered84ebbd69402230cc (p2, c1, k60).
