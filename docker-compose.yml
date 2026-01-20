@@ -9,7 +9,7 @@ services:
     ports:
       - "1883:1883" # Port Standard
       - "9001:9001" # Port Websocket (pour debug web)
-      # - "8883:8883" # Décommenter si tu as tes certificats SSL
+      - "8883:8883" # Secure MQTT
     volumes:
       - ./mosquitto/config:/mosquitto/config
       - ./mosquitto/data:/mosquitto/data

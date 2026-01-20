@@ -158,3 +158,37 @@
 1768576910: Client nodered1126a447a2fbe2a4 disconnected.
 1768576910: mosquitto version 2.0.22 terminating
 1768576910: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768897629: mosquitto version 2.0.22 starting
+1768897629: Config loaded from /mosquitto/config/mosquitto.conf.
+1768897629: Opening ipv4 listen socket on port 1883.
+1768897629: Opening websockets listen socket on port 9001.
+1768897629: mosquitto version 2.0.22 running
+1768897632: New connection from 172.20.0.5:34046 on port 1883.
+1768897632: New client connected from 172.20.0.5:34046 as nodered84ebbd69402230cc (p2, c1, k60).
+1768899944: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768900118: New connection from 172.20.0.1:59928 on port 1883.
+1768900118: New connection from 172.20.0.1:59916 on port 1883.
+1768900118: Client <unknown> disconnected due to protocol error.
+1768900119: Client <unknown> disconnected due to protocol error.
+1768900119: New connection from 172.20.0.1:59932 on port 1883.
+1768900119: Client <unknown> disconnected due to protocol error.
+1768900119: New connection from 172.20.0.1:59946 on port 1883.
+1768900119: Client <unknown> disconnected due to protocol error.
+1768900661: New connection from 172.20.0.1:57390 on port 1883.
+1768900661: New client connected from 172.20.0.1:57390 as notus-scanner (p5, c1, k60).
+1768901252: Client notus-scanner closed its connection.
+1768901744: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768902837: mosquitto version 2.0.22 terminating
+1768902837: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1768902839: mosquitto version 2.0.22 starting
+1768902839: Config loaded from /mosquitto/config/mosquitto.conf.
+1768902839: Opening ipv4 listen socket on port 1883.
+1768902839: Opening ipv6 listen socket on port 1883.
+1768902839: Opening websockets listen socket on port 9001.
+1768902839: Opening ipv4 listen socket on port 8883.
+1768902839: Opening ipv6 listen socket on port 8883.
+1768902839: mosquitto version 2.0.22 running
+1768902852: New connection from 172.20.0.5:42410 on port 1883.
+1768902852: New client connected from 172.20.0.5:42410 as nodered84ebbd69402230cc (p2, c1, k60).
+1768903010: mosquitto version 2.0.22 terminating
+1768903010: Saving in-memory database to /mosquitto/data//mosquitto.db.
