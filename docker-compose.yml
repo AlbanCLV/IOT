@@ -7,9 +7,9 @@ services:
     container_name: iot_mosquitto
     restart: always
     ports:
-      - "1883:1883" # Port Standard
-      - "9001:9001" # Port Websocket (pour debug web)
-      - "8883:8883" # Secure MQTT
+      # - "1883:1883" # Port Standard - DESACTIVE (utiliser 8883 TLS)
+      # - "9001:9001" # Port Websocket - DESACTIVE (utiliser 8883 TLS)
+      - "8883:8883" # Secure MQTT - SEUL PORT ACTIF
     volumes:
       - ./mosquitto/config:/mosquitto/config
       - ./mosquitto/data:/mosquitto/data
@@ -26,6 +26,7 @@ services:
       - "1880:1880"
     volumes:
       - ./nodered/data:/data
+      - ./mosquitto/config/certs:/data/certs:ro
     depends_on:
       - mosquitto
       - influxdb

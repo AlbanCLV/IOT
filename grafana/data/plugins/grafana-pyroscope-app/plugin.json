@@ -40,8 +40,8 @@
                 "path": "img/hero-image.png"
             }
         ],
-        "version": "1.14.2",
-        "updated": "2025-12-18",
+        "version": "1.15.0",
+        "updated": "2026-01-20",
         "links": [
             {
                 "name": "GitHub",
@@ -72,9 +72,6 @@
             }
         ],
         "extensionPoints": [
-            {
-                "id": "grafana-pyroscope-app/investigation/v1"
-            },
             {
                 "id": "grafana-pyroscope-app/settings/v1"
             }
