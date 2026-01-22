@@ -33,7 +33,7 @@
         "influxdbVersion": "2.0",
         "url": "http://influxdb:8086",
         "timeout": "",
-        "rejectUnauthorized": true
+        "rejectUnauthorized": false
     },
     {
         "id": "mosquitto_local",
@@ -121,8 +121,7 @@
         "wires": [
             [
                 "f89ed0b5c7679b5f",
-                "792d070f2c5106ce",
-                "c1b03763374f0eb9"
+                "792d070f2c5106ce"
             ]
         ]
     },
@@ -131,7 +130,7 @@
         "type": "function",
         "z": "f6f2187d.f17ca8",
         "name": "Formatage pour InfluxDB",
-        "func": "const d = msg.payload;\n\n// 1. Sécurité : Si le déchiffrement a échoué, on n'envoie RIEN à la base de données\n// pour éviter de polluer les graphs avec des 0 ou des erreurs.\nif (!d.success) {\n    return null;\n}\n\n// 2. Préparation des données (Variables venant du noeud précédent)\n// On s'assure que ce sont des nombres\nconst temp = parseFloat(d.temperature);\nconst hum = Number(d.humidite);\nconst lum = Number(d.lumiere);\nconst hum_sol = Number(d.sol);\nconst rssi = Number(d.rssi) || 0;\n\n// 3. Construction du message InfluxDB (Format Array of Objects)\n// Cela permet de définir précisément les TAGS et les FIELDS\nmsg.payload = [\n    {\n        measurement: \"monitor_plante\",\n        tags: {\n            id_plante: d.id.toString(),  // TRES IMPORTANT: Permet de filtrer par plante\n            location: \"maison\"           // Optionnel\n        },\n        fields: {\n            temperature: temp,\n            humidite: hum,\n            luminosite: lum,\n            humidite_sol: hum_sol,\n            rssi: rssi\n        },\n        timestamp: new Date() // Date actuelle\n    }\n];\n\nreturn msg;",
+        "func": "const d = msg.payload;\n\n// 1. Sécurité : Si le déchiffrement a échoué, on n'envoie RIEN à la base de données\n// pour éviter de polluer les graphs avec des 0 ou des erreurs.\nif (!d.success) {\n    return null;\n}\n\n// 2. Préparation des données (Variables venant du noeud précédent)\n// On s'assure que ce sont des nombres\nconst temp = parseFloat(d.temperature);\nconst hum = Number(d.humidite);\nconst lum = Number(d.lumiere);\nconst hum_sol = Number(d.sol);\nconst rssi = Number(d.rssi) || 0;\n\n// 3. Construction du message InfluxDB (Format Array of Objects)\n// Cela permet de définir précisément les TAGS et les FIELDS\n\nif (!d.success) return null;\n\n// On prépare l'objet de données\nconst influxData = {\n    temperature: parseFloat(d.temperature),\n    humidite: Number(d.humidite),\n    luminosite: Number(d.lumiere),\n    humidite_sol: Number(d.sol),\n    rssi: Number(d.rssi) || 0\n};\n\nconst influxTags = {\n    id_plante: d.id.toString(),\n    location: \"maison\"\n};\n\n// Voici le format exact attendu par le nœud quand le champ Measurement est vide :\nmsg.payload = influxData;      // Les \"Fields\"\nmsg.tags = influxTags;         // Les \"Tags\"\nmsg.measurement = \"monitor_plante\"; // Le nom de la table\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -142,7 +141,8 @@
         "y": 200,
         "wires": [
             [
-                "4853628f029d2cc2"
+                "4853628f029d2cc2",
+                "04679a86156e955d"
             ]
         ]
     },
@@ -152,7 +152,7 @@
         "z": "f6f2187d.f17ca8",
         "influxdb": "influx_conf",
         "name": "Envoi InfluxDB",
-        "measurement": "monitor_plante",
+        "measurement": "",
         "precision": "",
         "retentionPolicy": "",
         "database": "database",
@@ -160,8 +160,8 @@
         "retentionPolicyV18Flux": "",
         "org": "maison",
         "bucket": "plante_data",
-        "x": 1040,
-        "y": 200,
+        "x": 1160,
+        "y": 120,
         "wires": []
     },
     {
@@ -221,6 +221,51 @@
         "statusType": "auto",
         "x": 840,
         "y": 280,
+        "wires": []
+    },
+    {
+        "id": "fd5bbb7418b76d9f",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"success\":true,\"id\":\"A1-42\",\"temperature\":22.5,\"humidite\":50,\"lumiere\":900,\"sol\":20,\"rssi\":-65}",
+        "payloadType": "json",
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "c1b03763374f0eb9"
+            ]
+        ]
+    },
+    {
+        "id": "04679a86156e955d",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 240,
         "wires": []
     }
 ]
