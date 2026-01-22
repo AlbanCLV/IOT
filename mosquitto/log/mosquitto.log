@@ -5282,3 +5282,562 @@
 1769009545: New client connected from 192.168.107.1:22836 as ESP32Plante (p2, c1, k15, u'esp32').
 1769009718: New connection from 192.168.107.1:61271 on port 8883.
 1769009718: New client connected from 192.168.107.1:61271 as nodered3f81823b588a1f09 (p2, c1, k60, u'nodered').
+1769010019: mosquitto version 2.0.22 terminating
+1769010019: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769010019: mosquitto version 2.0.22 starting
+1769010019: Config loaded from /mosquitto/config/mosquitto.conf.
+1769010019: Opening ipv4 listen socket on port 1883.
+1769010019: Opening ipv6 listen socket on port 1883.
+1769010019: Opening websockets listen socket on port 9001.
+1769010019: Opening ipv4 listen socket on port 8883.
+1769010019: Opening ipv6 listen socket on port 8883.
+1769010019: mosquitto version 2.0.22 running
+1769010022: New connection from 192.168.107.1:43837 on port 8883.
+1769010022: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010022: Client <unknown> disconnected: Protocol error.
+1769010026: New connection from 192.168.107.1:53642 on port 8883.
+1769010026: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010026: Client <unknown> disconnected: Protocol error.
+1769010030: New connection from 192.168.107.1:31055 on port 8883.
+1769010030: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010030: Client <unknown> disconnected: Protocol error.
+1769010033: New connection from 192.168.107.1:46493 on port 8883.
+1769010033: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010033: Client <unknown> disconnected: Protocol error.
+1769010034: New connection from 192.168.107.1:58540 on port 8883.
+1769010034: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010034: Client <unknown> disconnected: Protocol error.
+1769010034: New connection from 192.168.107.1:34507 on port 8883.
+1769010034: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010034: Client <unknown> disconnected: Protocol error.
+1769010037: New connection from 192.168.107.1:26298 on port 8883.
+1769010037: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010037: Client <unknown> disconnected: Protocol error.
+1769010041: New connection from 192.168.107.1:51663 on port 8883.
+1769010041: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010041: Client <unknown> disconnected: Protocol error.
+1769010044: New connection from 192.168.107.1:49148 on port 8883.
+1769010044: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010044: Client <unknown> disconnected: Protocol error.
+1769010048: New connection from 192.168.107.1:61447 on port 8883.
+1769010048: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010048: Client <unknown> disconnected: Protocol error.
+1769010048: New connection from 192.168.107.1:36655 on port 8883.
+1769010048: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010048: Client <unknown> disconnected: Protocol error.
+1769010049: New connection from 192.168.107.1:41942 on port 8883.
+1769010049: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010049: Client <unknown> disconnected: Protocol error.
+1769010051: New connection from 192.168.107.1:60291 on port 8883.
+1769010051: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010051: Client <unknown> disconnected: Protocol error.
+1769010055: New connection from 192.168.107.1:49256 on port 8883.
+1769010055: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010055: Client <unknown> disconnected: Protocol error.
+1769010058: New connection from 192.168.107.1:53274 on port 8883.
+1769010058: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010058: Client <unknown> disconnected: Protocol error.
+1769010062: New connection from 192.168.107.1:57063 on port 8883.
+1769010062: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010062: Client <unknown> disconnected: Protocol error.
+1769010062: New connection from 192.168.107.1:18280 on port 8883.
+1769010062: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010062: Client <unknown> disconnected: Protocol error.
+1769010064: New connection from 192.168.107.1:29071 on port 8883.
+1769010064: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010064: Client <unknown> disconnected: Protocol error.
+1769010065: New connection from 192.168.107.1:23449 on port 8883.
+1769010065: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010065: Client <unknown> disconnected: Protocol error.
+1769010069: New connection from 192.168.107.1:40914 on port 8883.
+1769010069: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010069: Client <unknown> disconnected: Protocol error.
+1769010072: New connection from 192.168.107.1:21287 on port 8883.
+1769010072: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010072: Client <unknown> disconnected: Protocol error.
+1769010076: New connection from 192.168.107.1:34312 on port 8883.
+1769010076: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010076: Client <unknown> disconnected: Protocol error.
+1769010076: New connection from 192.168.107.1:21501 on port 8883.
+1769010076: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010076: Client <unknown> disconnected: Protocol error.
+1769010079: New connection from 192.168.107.1:20295 on port 8883.
+1769010079: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010079: Client <unknown> disconnected: Protocol error.
+1769010080: New connection from 192.168.107.1:17079 on port 8883.
+1769010082: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010082: Client <unknown> disconnected: Protocol error.
+1769010085: New connection from 192.168.107.1:64262 on port 8883.
+1769010085: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010085: Client <unknown> disconnected: Protocol error.
+1769010088: New connection from 192.168.107.1:42191 on port 8883.
+1769010089: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010089: Client <unknown> disconnected: Protocol error.
+1769010092: New connection from 192.168.107.1:25175 on port 8883.
+1769010092: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010092: Client <unknown> disconnected: Protocol error.
+1769010092: New connection from 192.168.107.1:18726 on port 8883.
+1769010092: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010092: Client <unknown> disconnected: Protocol error.
+1769010094: New connection from 192.168.107.1:26249 on port 8883.
+1769010094: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010094: Client <unknown> disconnected: Protocol error.
+1769010096: New connection from 192.168.107.1:19023 on port 8883.
+1769010096: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010096: Client <unknown> disconnected: Protocol error.
+1769010099: New connection from 192.168.107.1:57236 on port 8883.
+1769010099: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010099: Client <unknown> disconnected: Protocol error.
+1769010102: New connection from 192.168.107.1:26940 on port 8883.
+1769010103: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010103: Client <unknown> disconnected: Protocol error.
+1769010106: New connection from 192.168.107.1:45923 on port 8883.
+1769010106: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010106: Client <unknown> disconnected: Protocol error.
+1769010107: New connection from 192.168.107.1:37218 on port 8883.
+1769010107: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010107: Client <unknown> disconnected: Protocol error.
+1769010109: New connection from 192.168.107.1:62195 on port 8883.
+1769010109: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010109: Client <unknown> disconnected: Protocol error.
+1769010110: New connection from 192.168.107.1:42091 on port 8883.
+1769010110: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010110: Client <unknown> disconnected: Protocol error.
+1769010114: New connection from 192.168.107.1:35907 on port 8883.
+1769010114: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010114: Client <unknown> disconnected: Protocol error.
+1769010117: New connection from 192.168.107.1:28110 on port 8883.
+1769010117: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010117: Client <unknown> disconnected: Protocol error.
+1769010120: New connection from 192.168.107.1:22025 on port 8883.
+1769010120: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010120: Client <unknown> disconnected: Protocol error.
+1769010121: New connection from 192.168.107.1:39338 on port 8883.
+1769010121: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010121: Client <unknown> disconnected: Protocol error.
+1769010124: New connection from 192.168.107.1:55973 on port 8883.
+1769010124: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010124: Client <unknown> disconnected: Protocol error.
+1769010124: New connection from 192.168.107.1:18322 on port 8883.
+1769010124: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010124: Client <unknown> disconnected: Protocol error.
+1769010128: New connection from 192.168.107.1:62940 on port 8883.
+1769010128: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010128: Client <unknown> disconnected: Protocol error.
+1769010132: New connection from 192.168.107.1:42528 on port 8883.
+1769010132: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010132: Client <unknown> disconnected: Protocol error.
+1769010135: New connection from 192.168.107.1:23872 on port 8883.
+1769010135: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010135: Client <unknown> disconnected: Protocol error.
+1769010136: New connection from 192.168.107.1:42443 on port 8883.
+1769010137: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010137: Client <unknown> disconnected: Protocol error.
+1769010139: New connection from 192.168.107.1:36689 on port 8883.
+1769010139: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010139: Client <unknown> disconnected: Protocol error.
+1769010140: New connection from 192.168.107.1:33311 on port 8883.
+1769010140: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010140: Client <unknown> disconnected: Protocol error.
+1769010144: New connection from 192.168.107.1:47192 on port 8883.
+1769010144: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010144: Client <unknown> disconnected: Protocol error.
+1769010147: New connection from 192.168.107.1:42774 on port 8883.
+1769010147: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010147: Client <unknown> disconnected: Protocol error.
+1769010151: New connection from 192.168.107.1:55524 on port 8883.
+1769010151: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010151: Client <unknown> disconnected: Protocol error.
+1769010151: New connection from 192.168.107.1:56140 on port 8883.
+1769010151: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010151: Client <unknown> disconnected: Protocol error.
+1769010154: New connection from 192.168.107.1:22104 on port 8883.
+1769010154: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010154: Client <unknown> disconnected: Protocol error.
+1769010155: New connection from 192.168.107.1:37317 on port 8883.
+1769010155: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010155: Client <unknown> disconnected: Protocol error.
+1769010158: New connection from 192.168.107.1:24653 on port 8883.
+1769010158: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010158: Client <unknown> disconnected: Protocol error.
+1769010161: New connection from 192.168.107.1:20771 on port 8883.
+1769010161: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010161: Client <unknown> disconnected: Protocol error.
+1769010165: New connection from 192.168.107.1:27792 on port 8883.
+1769010165: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010165: Client <unknown> disconnected: Protocol error.
+1769010165: New connection from 192.168.107.1:47488 on port 8883.
+1769010165: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010165: Client <unknown> disconnected: Protocol error.
+1769010169: New connection from 192.168.107.1:50671 on port 8883.
+1769010169: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010169: Client <unknown> disconnected: Protocol error.
+1769010169: New connection from 192.168.107.1:38501 on port 8883.
+1769010169: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010169: Client <unknown> disconnected: Protocol error.
+1769010172: New connection from 192.168.107.1:63958 on port 8883.
+1769010172: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010172: Client <unknown> disconnected: Protocol error.
+1769010175: New connection from 192.168.107.1:25171 on port 8883.
+1769010175: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010175: Client <unknown> disconnected: Protocol error.
+1769010182: New connection from 192.168.107.1:47531 on port 8883.
+1769010182: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010182: Client <unknown> disconnected: Protocol error.
+1769010182: New connection from 192.168.107.1:30368 on port 8883.
+1769010182: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010182: Client <unknown> disconnected: Protocol error.
+1769010184: New connection from 192.168.107.1:26026 on port 8883.
+1769010184: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010184: Client <unknown> disconnected: Protocol error.
+1769010186: New connection from 192.168.107.1:44393 on port 8883.
+1769010186: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010186: Client <unknown> disconnected: Protocol error.
+1769010189: New connection from 192.168.107.1:40234 on port 8883.
+1769010189: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010189: Client <unknown> disconnected: Protocol error.
+1769010193: New connection from 192.168.107.1:21917 on port 8883.
+1769010193: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010193: Client <unknown> disconnected: Protocol error.
+1769010196: New connection from 192.168.107.1:63209 on port 8883.
+1769010196: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010196: Client <unknown> disconnected: Protocol error.
+1769010197: New connection from 192.168.107.1:34098 on port 8883.
+1769010197: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010197: Client <unknown> disconnected: Protocol error.
+1769010199: New connection from 192.168.107.1:45421 on port 8883.
+1769010199: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010199: Client <unknown> disconnected: Protocol error.
+1769010200: New connection from 192.168.107.1:63192 on port 8883.
+1769010200: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010200: Client <unknown> disconnected: Protocol error.
+1769010203: New connection from 192.168.107.1:48152 on port 8883.
+1769010204: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010204: Client <unknown> disconnected: Protocol error.
+1769010207: New connection from 192.168.107.1:27441 on port 8883.
+1769010207: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010207: Client <unknown> disconnected: Protocol error.
+1769010210: New connection from 192.168.107.1:40542 on port 8883.
+1769010211: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010211: Client <unknown> disconnected: Protocol error.
+1769010211: New connection from 192.168.107.1:64039 on port 8883.
+1769010211: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010211: Client <unknown> disconnected: Protocol error.
+1769010214: New connection from 192.168.107.1:53831 on port 8883.
+1769010214: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010214: Client <unknown> disconnected: Protocol error.
+1769010214: New connection from 192.168.107.1:18030 on port 8883.
+1769010214: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010214: Client <unknown> disconnected: Protocol error.
+1769010218: New connection from 192.168.107.1:51336 on port 8883.
+1769010218: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010218: Client <unknown> disconnected: Protocol error.
+1769010222: New connection from 192.168.107.1:38817 on port 8883.
+1769010222: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010222: Client <unknown> disconnected: Protocol error.
+1769010225: New connection from 192.168.107.1:41197 on port 8883.
+1769010225: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010225: Client <unknown> disconnected: Protocol error.
+1769010226: New connection from 192.168.107.1:49083 on port 8883.
+1769010226: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010226: Client <unknown> disconnected: Protocol error.
+1769010229: New connection from 192.168.107.1:56377 on port 8883.
+1769010229: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010229: Client <unknown> disconnected: Protocol error.
+1769010230: New connection from 192.168.107.1:16772 on port 8883.
+1769010230: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010230: Client <unknown> disconnected: Protocol error.
+1769010232: New connection from 192.168.107.1:26464 on port 8883.
+1769010232: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010232: Client <unknown> disconnected: Protocol error.
+1769010236: New connection from 192.168.107.1:54899 on port 8883.
+1769010236: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010236: Client <unknown> disconnected: Protocol error.
+1769010239: New connection from 192.168.107.1:40168 on port 8883.
+1769010239: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010239: Client <unknown> disconnected: Protocol error.
+1769010240: New connection from 192.168.107.1:24590 on port 8883.
+1769010240: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010240: Client <unknown> disconnected: Protocol error.
+1769010243: New connection from 192.168.107.1:61400 on port 8883.
+1769010243: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010243: Client <unknown> disconnected: Protocol error.
+1769010245: New connection from 192.168.107.1:19264 on port 8883.
+1769010245: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010245: Client <unknown> disconnected: Protocol error.
+1769010246: New connection from 192.168.107.1:52617 on port 8883.
+1769010246: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010246: Client <unknown> disconnected: Protocol error.
+1769010250: New connection from 192.168.107.1:54498 on port 8883.
+1769010250: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010250: Client <unknown> disconnected: Protocol error.
+1769010253: New connection from 192.168.107.1:21915 on port 8883.
+1769010253: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010253: Client <unknown> disconnected: Protocol error.
+1769010253: New connection from 192.168.107.1:61450 on port 8883.
+1769010253: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010253: Client <unknown> disconnected: Protocol error.
+1769010257: New connection from 192.168.107.1:64608 on port 8883.
+1769010257: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010257: Client <unknown> disconnected: Protocol error.
+1769010260: New connection from 192.168.107.1:53564 on port 8883.
+1769010260: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010260: Client <unknown> disconnected: Protocol error.
+1769010260: New connection from 192.168.107.1:37201 on port 8883.
+1769010261: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010261: Client <unknown> disconnected: Protocol error.
+1769010264: New connection from 192.168.107.1:21513 on port 8883.
+1769010264: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010264: Client <unknown> disconnected: Protocol error.
+1769010267: New connection from 192.168.107.1:26150 on port 8883.
+1769010268: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010268: Client <unknown> disconnected: Protocol error.
+1769010268: New connection from 192.168.107.1:25567 on port 8883.
+1769010268: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010268: Client <unknown> disconnected: Protocol error.
+1769010271: New connection from 192.168.107.1:32971 on port 8883.
+1769010271: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010271: Client <unknown> disconnected: Protocol error.
+1769010275: New connection from 192.168.107.1:59353 on port 8883.
+1769010275: New connection from 192.168.107.1:60840 on port 8883.
+1769010275: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010275: Client <unknown> disconnected: Protocol error.
+1769010275: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010275: Client <unknown> disconnected: Protocol error.
+1769010278: New connection from 192.168.107.1:52736 on port 8883.
+1769010278: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010278: Client <unknown> disconnected: Protocol error.
+1769010282: New connection from 192.168.107.1:61301 on port 8883.
+1769010282: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010282: Client <unknown> disconnected: Protocol error.
+1769010282: New connection from 192.168.107.1:57825 on port 8883.
+1769010282: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010282: Client <unknown> disconnected: Protocol error.
+1769010285: New connection from 192.168.107.1:46643 on port 8883.
+1769010285: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010285: Client <unknown> disconnected: Protocol error.
+1769010289: New connection from 192.168.107.1:55513 on port 8883.
+1769010289: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010289: Client <unknown> disconnected: Protocol error.
+1769010290: New connection from 192.168.107.1:38478 on port 8883.
+1769010290: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010290: Client <unknown> disconnected: Protocol error.
+1769010292: New connection from 192.168.107.1:28857 on port 8883.
+1769010293: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010293: Client <unknown> disconnected: Protocol error.
+1769010296: New connection from 192.168.107.1:23183 on port 8883.
+1769010296: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010296: Client <unknown> disconnected: Protocol error.
+1769010296: New connection from 192.168.107.1:32323 on port 8883.
+1769010296: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010296: Client <unknown> disconnected: Protocol error.
+1769010299: New connection from 192.168.107.1:64955 on port 8883.
+1769010300: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010300: Client <unknown> disconnected: Protocol error.
+1769010303: New connection from 192.168.107.1:20439 on port 8883.
+1769010303: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010303: Client <unknown> disconnected: Protocol error.
+1769010305: New connection from 192.168.107.1:27819 on port 8883.
+1769010305: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010305: Client <unknown> disconnected: Protocol error.
+1769010306: New connection from 192.168.107.1:18514 on port 8883.
+1769010306: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010306: Client <unknown> disconnected: Protocol error.
+1769010310: New connection from 192.168.107.1:35123 on port 8883.
+1769010310: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010310: Client <unknown> disconnected: Protocol error.
+1769010310: New connection from 192.168.107.1:20275 on port 8883.
+1769010310: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010310: Client <unknown> disconnected: Protocol error.
+1769010313: New connection from 192.168.107.1:50667 on port 8883.
+1769010313: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010313: Client <unknown> disconnected: Protocol error.
+1769010317: New connection from 192.168.107.1:33886 on port 8883.
+1769010317: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010317: Client <unknown> disconnected: Protocol error.
+1769010320: New connection from 192.168.107.1:25921 on port 8883.
+1769010320: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010320: Client <unknown> disconnected: Protocol error.
+1769010320: New connection from 192.168.107.1:53866 on port 8883.
+1769010320: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010320: Client <unknown> disconnected: Protocol error.
+1769010323: New connection from 192.168.107.1:47626 on port 8883.
+1769010323: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010323: Client <unknown> disconnected: Protocol error.
+1769010324: New connection from 192.168.107.1:39604 on port 8883.
+1769010324: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010324: Client <unknown> disconnected: Protocol error.
+1769010327: New connection from 192.168.107.1:61048 on port 8883.
+1769010327: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010327: Client <unknown> disconnected: Protocol error.
+1769010330: New connection from 192.168.107.1:30383 on port 8883.
+1769010331: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010331: Client <unknown> disconnected: Protocol error.
+1769010335: New connection from 192.168.107.1:45163 on port 8883.
+1769010335: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010335: Client <unknown> disconnected: Protocol error.
+1769010350: New connection from 192.168.107.1:27338 on port 8883.
+1769010350: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010350: Client <unknown> disconnected: Protocol error.
+1769010360: New connection from 192.168.107.1:33862 on port 8883.
+1769010361: New client connected from 192.168.107.1:33862 as ESP32Plante (p2, c1, k15, u'esp32').
+1769010365: New connection from 192.168.107.1:35710 on port 8883.
+1769010365: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010365: Client <unknown> disconnected: Protocol error.
+1769010380: New connection from 192.168.107.1:49356 on port 8883.
+1769010380: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010380: Client <unknown> disconnected: Protocol error.
+1769010395: New connection from 192.168.107.1:49494 on port 8883.
+1769010395: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010395: Client <unknown> disconnected: Protocol error.
+1769010410: New connection from 192.168.107.1:41036 on port 8883.
+1769010410: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010410: Client <unknown> disconnected: Protocol error.
+1769010425: New connection from 192.168.107.1:40722 on port 8883.
+1769010425: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010425: Client <unknown> disconnected: Protocol error.
+1769010440: New connection from 192.168.107.1:50092 on port 8883.
+1769010440: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010440: Client <unknown> disconnected: Protocol error.
+1769010455: New connection from 192.168.107.1:26686 on port 8883.
+1769010455: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010455: Client <unknown> disconnected: Protocol error.
+1769010470: New connection from 192.168.107.1:28581 on port 8883.
+1769010470: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010470: Client <unknown> disconnected: Protocol error.
+1769010485: New connection from 192.168.107.1:23403 on port 8883.
+1769010485: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010485: Client <unknown> disconnected: Protocol error.
+1769010500: New connection from 192.168.107.1:42928 on port 8883.
+1769010500: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010500: Client <unknown> disconnected: Protocol error.
+1769010515: New connection from 192.168.107.1:27147 on port 8883.
+1769010515: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010515: Client <unknown> disconnected: Protocol error.
+1769010530: New connection from 192.168.107.1:21010 on port 8883.
+1769010530: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010530: Client <unknown> disconnected: Protocol error.
+1769010545: New connection from 192.168.107.1:30402 on port 8883.
+1769010545: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010545: Client <unknown> disconnected: Protocol error.
+1769010560: New connection from 192.168.107.1:56168 on port 8883.
+1769010560: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010560: Client <unknown> disconnected: Protocol error.
+1769010562: mosquitto version 2.0.22 terminating
+1769010562: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769010562: mosquitto version 2.0.22 starting
+1769010562: Config loaded from /mosquitto/config/mosquitto.conf.
+1769010562: Opening ipv4 listen socket on port 1883.
+1769010562: Opening ipv6 listen socket on port 1883.
+1769010562: Opening websockets listen socket on port 9001.
+1769010562: Opening ipv4 listen socket on port 8883.
+1769010562: Opening ipv6 listen socket on port 8883.
+1769010562: mosquitto version 2.0.22 running
+1769010565: New connection from 192.168.107.1:17913 on port 8883.
+1769010567: New client connected from 192.168.107.1:17913 as ESP32Plante (p2, c1, k15, u'esp32').
+1769010575: New connection from 192.168.107.1:30633 on port 8883.
+1769010575: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010575: Client <unknown> disconnected: Protocol error.
+1769010590: New connection from 192.168.107.1:62081 on port 8883.
+1769010590: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010590: Client <unknown> disconnected: Protocol error.
+1769010605: New connection from 192.168.107.1:32361 on port 8883.
+1769010605: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010605: Client <unknown> disconnected: Protocol error.
+1769010620: New connection from 192.168.107.1:54460 on port 8883.
+1769010620: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010620: Client <unknown> disconnected: Protocol error.
+1769010636: New connection from 192.168.107.1:19408 on port 8883.
+1769010636: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010636: Client <unknown> disconnected: Protocol error.
+1769010651: New connection from 192.168.107.1:39065 on port 8883.
+1769010651: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010651: Client <unknown> disconnected: Protocol error.
+1769010666: New connection from 192.168.107.1:28753 on port 8883.
+1769010666: OpenSSL Error[0]: error:0A0000C7:SSL routines::peer did not return a certificate
+1769010666: Client <unknown> disconnected: Protocol error.
+1769010670: New connection from 192.168.107.1:33004 on port 8883.
+1769010670: New client connected from 192.168.107.1:33004 as nodereda4b5d4a4285c32b5 (p2, c1, k60).
+1769010684: Client ESP32Plante has exceeded timeout, disconnecting.
+1769010698: New connection from 192.168.107.1:49481 on port 8883.
+1769010700: New client connected from 192.168.107.1:49481 as ESP32Plante (p2, c1, k15).
+1769012102: Client ESP32Plante has exceeded timeout, disconnecting.
+1769012288: New connection from 192.168.107.1:58051 on port 8883.
+1769012289: New client connected from 192.168.107.1:58051 as ESP32Plante (p2, c1, k15).
+1769012363: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769012395: Client ESP32Plante has exceeded timeout, disconnecting.
+1769012401: New connection from 192.168.107.1:31220 on port 8883.
+1769012402: New client connected from 192.168.107.1:31220 as ESP32_LoRa_Gateway (p2, c1, k15).
+1769012437: New connection from 192.168.107.1:61829 on port 8883.
+1769012439: Client ESP32_LoRa_Gateway already connected, closing old connection.
+1769012439: New client connected from 192.168.107.1:61829 as ESP32_LoRa_Gateway (p2, c1, k15).
+1769012606: Client nodereda4b5d4a4285c32b5 disconnected.
+1769012606: New connection from 192.168.107.1:29092 on port 8883.
+1769012606: New client connected from 192.168.107.1:29092 as noderedd26b200810e570b1 (p2, c1, k60).
+1769012701: Client ESP32_LoRa_Gateway has exceeded timeout, disconnecting.
+1769012922: New connection from 192.168.107.1:56292 on port 8883.
+1769012923: New client connected from 192.168.107.1:56292 as ESP32_LoRa_Gateway (p2, c1, k15).
+1769013126: Client ESP32_LoRa_Gateway has exceeded timeout, disconnecting.
+1769013306: New connection from 192.168.107.1:22861 on port 8883.
+1769013307: New client connected from 192.168.107.1:22861 as ESP32_LoRa_Gateway (p2, c1, k15).
+1769013449: Client ESP32_LoRa_Gateway has exceeded timeout, disconnecting.
+1769013476: New connection from 192.168.107.1:17639 on port 8883.
+1769013478: New client connected from 192.168.107.1:17639 as ESP32_LoRa_Gateway (p2, c1, k60).
+1769013633: New connection from 192.168.107.1:64699 on port 8883.
+1769013634: Client ESP32_LoRa_Gateway already connected, closing old connection.
+1769013634: New client connected from 192.168.107.1:64699 as ESP32_LoRa_Gateway (p2, c1, k60).
+1769013784: Client ESP32_LoRa_Gateway has exceeded timeout, disconnecting.
+1769013837: Client noderedd26b200810e570b1 has exceeded timeout, disconnecting.
+1769014164: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769014226: mosquitto version 2.0.22 terminating
+1769014226: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769068824: mosquitto version 2.0.22 starting
+1769068824: Config loaded from /mosquitto/config/mosquitto.conf.
+1769068824: Opening ipv4 listen socket on port 1883.
+1769068824: Opening ipv6 listen socket on port 1883.
+1769068824: Opening websockets listen socket on port 9001.
+1769068824: Opening ipv4 listen socket on port 8883.
+1769068824: Opening ipv6 listen socket on port 8883.
+1769068824: mosquitto version 2.0.22 running
+1769068825: New connection from 192.168.107.1:31925 on port 8883.
+1769068825: New client connected from 192.168.107.1:31925 as nodered5279580279b08cea (p2, c1, k60).
+1769068827: New connection from 192.168.107.1:42130 on port 8883.
+1769068828: New client connected from 192.168.107.1:42130 as ESP32_LoRa_Gateway (p2, c1, k60).
+1769069279: Client ESP32_LoRa_Gateway has exceeded timeout, disconnecting.
+1769069599: New connection from 192.168.107.1:49837 on port 8883.
+1769069601: New client connected from 192.168.107.1:49837 as ESP32_LoRa_Gateway (p2, c1, k60).
+1769069905: Client nodered5279580279b08cea disconnected.
+1769069905: New connection from 192.168.107.1:38013 on port 8883.
+1769069905: New client connected from 192.168.107.1:38013 as nodered37e8549499d33262 (p2, c1, k60).
+1769070293: Client nodered37e8549499d33262 disconnected.
+1769070293: New connection from 192.168.107.1:50446 on port 8883.
+1769070293: New client connected from 192.168.107.1:50446 as nodereda1e25c23686821de (p2, c1, k60).
+1769070625: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769070835: New connection from 192.168.107.1:65240 on port 8883.
+1769070836: Client ESP32_LoRa_Gateway already connected, closing old connection.
+1769070836: New client connected from 192.168.107.1:65240 as ESP32_LoRa_Gateway (p2, c1, k60).
+1769071034: Client nodereda1e25c23686821de disconnected.
+1769071034: New connection from 192.168.107.1:45421 on port 8883.
+1769071034: New client connected from 192.168.107.1:45421 as nodered2996dc87def0290c (p2, c1, k60).
+1769071137: Client nodered2996dc87def0290c disconnected.
+1769071137: New connection from 192.168.107.1:38769 on port 8883.
+1769071137: New client connected from 192.168.107.1:38769 as noderedcea0c5025afdec32 (p2, c1, k60).
+1769071226: New connection from 192.168.107.1:35690 on port 8883.
+1769071227: Client ESP32_LoRa_Gateway already connected, closing old connection.
+1769071227: New client connected from 192.168.107.1:35690 as ESP32_LoRa_Gateway (p2, c1, k60).
+1769071472: Client noderedcea0c5025afdec32 disconnected.
+1769071472: New connection from 192.168.107.1:34977 on port 8883.
+1769071472: New client connected from 192.168.107.1:34977 as nodered4a8bcb58558d2469 (p2, c1, k60).
+1769072249: Client nodered4a8bcb58558d2469 disconnected.
+1769072249: New connection from 192.168.107.1:22094 on port 8883.
+1769072249: New client connected from 192.168.107.1:22094 as noderedd2655c22273f2c90 (p2, c1, k60).
+1769072426: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769072591: Client noderedd2655c22273f2c90 disconnected.
+1769072591: New connection from 192.168.107.1:26144 on port 8883.
+1769072591: New client connected from 192.168.107.1:26144 as nodered33c4297b4c4e4ec5 (p2, c1, k60).
+1769072711: Client nodered33c4297b4c4e4ec5 disconnected.
+1769072711: New connection from 192.168.107.1:56002 on port 8883.
+1769072711: New client connected from 192.168.107.1:56002 as nodered59cb6bf421701f43 (p2, c1, k60).
+1769072881: Client nodered59cb6bf421701f43 disconnected.
+1769072881: mosquitto version 2.0.22 terminating
+1769072881: Saving in-memory database to /mosquitto/data//mosquitto.db.

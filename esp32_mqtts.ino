@@ -10,8 +10,6 @@ const char *password = "fuckyoubitch";
 // ========== CONFIGURATION MQTT ==========
 const char *mqtt_server = "10.149.212.160";
 const int mqtt_port = 8883;
-const char *mqtt_user = "esp32";
-const char *mqtt_password = "plante2026";
 const char *mqtt_topic = "plante/humidite";
 
 // ========== CERTIFICAT CA ==========
@@ -38,6 +36,63 @@ Lhspc7xDRtSzB7xXeYFWyZu0eP/oRmwoDNr6cqNnJpsLd4bhzyfrwoB8iriZA7Wa
 1W9nNDmA/+EwGKJgT6a6sTleFHiJjkEYlbRmEw41C7tEEp545uB7o77E+cFH8VEa
 IfK2ylrA+TGfuRR/Gg==
 -----END CERTIFICATE-----
+)EOF";
+
+// ========== CERTIFICAT CLIENT ESP32 ==========
+const char *client_cert = R"EOF(
+-----BEGIN CERTIFICATE-----
+MIIDeDCCAmCgAwIBAgIUNwaWY2Wq5LsSCJPKSS59s82lfekwDQYJKoZIhvcNAQEL
+BQAwVDELMAkGA1UEBhMCRlIxDzANBgNVBAgMBkZyYW5jZTENMAsGA1UEBwwETHlv
+bjEPMA0GA1UECgwGTWFpc29uMRQwEgYDVQQDDAtNb3NxdWl0dG9DQTAeFw0yNjAx
+MjExNTM5NTNaFw0zNjAxMTkxNTM5NTNaMFQxCzAJBgNVBAYTAkZSMQ8wDQYDVQQI
+DAZGcmFuY2UxDTALBgNVBAcMBEx5b24xDzANBgNVBAoMBk1haXNvbjEUMBIGA1UE
+AwwLRVNQMzJQbGFudGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDE
+JGuKAwxMBh+S651kxTgT3FTomaeHhi827c7CEXhhvKIyJjOZFNjS8u3tkMGAtDeN
+aTzZKLM4ldWVnuWCxNRV7Pdp4GoSxWN1fV7zX+vm3+u4WQKrF5RGgpR8nzZvna25
+18hLQO1pChhXpX6yUKtuFcUGf6V6lFn74a75yotrdRZY0MAwDyjvsh2Mzcz+BPcY
+WLm949iCpvmnBJrFmOxly1c0Bv6ibXAqvspVybo4ccJrqjMv3s5gESCppvCYULeP
+L+3UOQqYJfJTuIfmTLT3S4Iqz+VvismH7VFcY8Vb6WrfZ1DnKVBZTML1fjHgbDzf
+f8+9dSZi9dAPgZjY2sFZAgMBAAGjQjBAMB0GA1UdDgQWBBTyWDe3eA1sbclXhrIr
+gPCcU1iYqTAfBgNVHSMEGDAWgBRppD+2WspPE6zSzk72YeFLs42iiDANBgkqhkiG
+9w0BAQsFAAOCAQEAUnrVE/rKo6tLlwnq6imQdhJuXtPMk2Fc65qSnHiq754npLca
+ICQJdlViP3P752utpmdHR9fY0TpVnNn3fy76hFASaS88l8Hv9o3/MthSNdQr2AHR
+vHo9DfcBnnIzDBrPAQAR3WNziFTftucwsqgGK/uNvK+U+gqaFeIedJ3sufyCIde9
+Ok81j/bOws1ecLboaRRHXvidtTeMjUXdan95UbgyTzFkZu2BFchab1malzrIPRUx
+OzMPnUvPKop4LydOqGpbKGIcN5NyPSJ7KRhqYri4XBZoj5v7bTFyY7iwQ01o8Q7j
+tOMlY+fHtPuMkyp/WbO4pK9Qv1lAfgLS8r9JxA==
+-----END CERTIFICATE-----
+)EOF";
+
+// ========== CLE PRIVEE CLIENT ESP32 ==========
+const char *client_key = R"EOF(
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEJGuKAwxMBh+S
+651kxTgT3FTomaeHhi827c7CEXhhvKIyJjOZFNjS8u3tkMGAtDeNaTzZKLM4ldWV
+nuWCxNRV7Pdp4GoSxWN1fV7zX+vm3+u4WQKrF5RGgpR8nzZvna2518hLQO1pChhX
+pX6yUKtuFcUGf6V6lFn74a75yotrdRZY0MAwDyjvsh2Mzcz+BPcYWLm949iCpvmn
+BJrFmOxly1c0Bv6ibXAqvspVybo4ccJrqjMv3s5gESCppvCYULePL+3UOQqYJfJT
+uIfmTLT3S4Iqz+VvismH7VFcY8Vb6WrfZ1DnKVBZTML1fjHgbDzff8+9dSZi9dAP
+gZjY2sFZAgMBAAECggEAK1MQHfAGa1R+7Oj2Xyfg9yIX7zjhdGIDU9K7dMp/GLed
+7A3cH9gm/JGEVJFA7Ljh/G5ebmk7DSirgN0UPQpVDJXHIK/dPkAzc+Q5cPCjHuAf
+JR0kJb6Tle+J9O0GDSl7Ei3DpDu3NRhxwApiLej7tNlCJ+lSF/1k0upKyAohOZ7E
+OOola29/Atdbc330TnYpNd01VYlCnIjCOBqZWKZN73EcltgYC9cDk09IyNq64wUF
+MIQGt23VISXBUTiSW4Z0R7EfnaGjlk/2g2YzYzqP7JfQOw5/eVLASyi2OvoOO9g/
+FAm7lbAmZgva0EOpG7yHZxOih7ok1rlcvhdy467YcQKBgQDpkLHD1lfJglxgMSLY
+ZMxnfzJQbG4A70ZvCUPuuQ3Xjb3ZuAhUWxt+6aCW5vcdnQaPJa4JLNtO+imi/0Ke
+qjSWu62oTuBe9LFlUx8HBp+a63MQl2UewiPY3fiGm9z/2HlKf6M1mizh7lvbzaw4
+Y5dtToQXjP2I3+ehysMRmgygjwKBgQDW+4FpVFLz3UVb1L76UigVt3QqmJOevdS3
+BjfE0gygl0YUcIXvdhgo9GM9Q1ParxXjB5KjDcGPZyBkJbmjIqdX9rYidPvXSNkg
+E9PiLwJtLZeQA1jDkWvc9wroicU2KkO44TOqskmIsX9ahtkYROtkMYEaPj/LDTzy
+pXB8uIOjlwKBgC3z1+Wt4Cu3SDFsuWxVuJmMPvvvuVzZtsPV0NXA9uY37uhM+uaN
+3kUD9iJ6Ypgi8s1rHmiTuLo7IcH98r+AwUP+vNXmXuKPxe8ngW1CclhqhoL3Jl/8
+1kyur1zcgYicsJBluFitcrMo0E3Yk0+s2HgbAIYZqTAqzUnZuLNX2bAlAoGBAMno
+NnelQa9VfqGrop3Y8VrMDKdA20v4f8JRbalFmaRtzty9fZ0T7cbxGA9en2/Ahq7N
+2vOWpNa5BVvpbnr/velIhXDBLBHakkmlNZe1jPLbIgCYlBJBDuvdfXo+gmDHuwj1
+QSAtCBEAm1p7UYOQnv9f2x+5nRJoYXiG1qncZY4LAoGBANCO+0/SmY86e1jy+HDM
+4TbPigCens+zeYxToqzbGYAmcPTuFPJksxU9ARN/UeZJYD8DG8tQDgfD5/RPaAp8
+x2/BkJnN1GW0feDcFmF7vyXdbRE7/V/xz9a4einDyCcxrBvEbOX8P3Qq0fZFKsnk
+/yCnsP5ZOdTIjwv4c/mrKfSy
+-----END PRIVATE KEY-----
 )EOF";
 
 // ========== OBJETS ==========
@@ -146,15 +201,22 @@ void syncNTP() {
   }
 }
 
-// ========== CONFIGURATION SSL ==========
+// ========== CONFIGURATION SSL avec mTLS ==========
 void setupSSL() {
-  Serial.println("\n🔐 Configuration SSL...");
+  Serial.println("\n🔐 Configuration SSL avec mTLS...");
 
-  // Certificat CA pour verifier le serveur
+  // 1. Certificat CA (pour vérifier le serveur)
   wifiClient.setCACert(ca_cert);
 
+  // 2. Certificat Client (pour s'identifier au serveur)
+  wifiClient.setCertificate(client_cert);
+
+  // 3. Clé Privée Client (pour prouver son identité)
+  wifiClient.setPrivateKey(client_key);
+
   Serial.println("✅ Certificat CA charge !");
-  Serial.println("   Mode: TLS avec verification serveur");
+  Serial.println("✅ Certificat client charge !");
+  Serial.println("   Mode: mTLS (Authentification Mutuelle)");
 }
 
 // ========== CONNEXION MQTT ==========
@@ -167,7 +229,8 @@ void reconnectMQTT() {
     Serial.print(mqtt_port);
     Serial.println("...");
 
-    if (client.connect("ESP32Plante", mqtt_user, mqtt_password)) {
+    // Connexion avec certificat client uniquement (pas de username/password)
+    if (client.connect("ESP32Plante")) {
       Serial.println("✅ MQTTS connecte !");
 
       // Souscription au topic
