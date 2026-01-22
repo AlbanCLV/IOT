@@ -5849,3 +5849,6 @@
 1769081845: Opening ipv4 listen socket on port 8883.
 1769081845: Opening ipv6 listen socket on port 8883.
 1769081845: mosquitto version 2.0.22 running
+1769083785: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769085631: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769088745: Saving in-memory database to /mosquitto/data//mosquitto.db.
