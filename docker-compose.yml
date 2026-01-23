@@ -44,6 +44,7 @@ services:
       - DOCKER_INFLUXDB_INIT_PASSWORD=adminpassword # Change-le !
       - DOCKER_INFLUXDB_INIT_ORG=maison
       - DOCKER_INFLUXDB_INIT_BUCKET=plante_data
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=hRdqsdya7L2N5_Q4_AAjGodXxrjrvvMk4r_zyjKg92ZZS8S6Vmi792KXpAGxNYiVLfiQ9AADsaoEnUkdRYCXIQ==
     volumes:
       - ./influxdb/data:/var/lib/influxdb2
 
@@ -56,5 +57,15 @@ services:
       - "3000:3000"
     volumes:
       - ./grafana/data:/var/lib/grafana
+    depends_on:
+      - influxdb
+
+  # --- WEB APP (EcoGuardian) ---
+  ecoguardian:
+    build: ./ecoguardian-plant-monitor
+    container_name: iot_ecoguardian
+    restart: always
+    ports:
+      - "8080:80"
     depends_on:
       - influxdb

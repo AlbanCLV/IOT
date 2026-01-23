@@ -1,0 +1,5 @@
+{
+  "name": "EcoGuardian Plant Monitor",
+  "description": "Dashboard de surveillance de plantes en temps réel connecté à InfluxDB.",
+  "requestFramePermissions": []
+}

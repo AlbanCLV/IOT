@@ -120,8 +120,7 @@
         "y": 320,
         "wires": [
             [
-                "f89ed0b5c7679b5f",
-                "792d070f2c5106ce"
+                "f89ed0b5c7679b5f"
             ]
         ]
     },
@@ -163,48 +162,6 @@
         "x": 1160,
         "y": 120,
         "wires": []
-    },
-    {
-        "id": "792d070f2c5106ce",
-        "type": "function",
-        "z": "f6f2187d.f17ca8",
-        "name": "Format Discord",
-        "func": "const d = msg.payload;\n\n// Gestion des erreurs de lecture (NaN)\n// Si T=NaN, on affiche \"--\"\nconst temp = !isNaN(d.temperature) ? d.temperature : \"--\";\nconst hum = !isNaN(d.humidite) ? d.humidite : \"--\";\nconst sol = !isNaN(d.sol) ? d.sol : \"--\";\nconst lum = !isNaN(d.lumiere) ? d.lumiere : \"--\";\n\n// Timestamp\nconst date = new Date();\nconst dateStr = date.toLocaleString('fr-FR');\n\n// Logique couleur et emoji (seulement si données valides)\nlet color = 3447003; // Bleu par défaut\nlet etat = \"🟢 Données reçues\";\n\nif (temp !== \"--\") {\n    if (temp > 25) color = 15158332; \n    else if (temp < 18) color = 3066993;\n    \n    if (sol < 300 && sol !== \"--\") etat = \"🟡 Besoin d'eau\";\n}\n\nif (!d.success) {\n    etat = \"⚠️ Erreur Déchiffrement\";\n    color = 0x000000;\n}\n\n// Construction du message Discord\nmsg.payload = {\n    embeds: [{\n        title: \"🌿 Plante #\" + d.id,\n        description: \"**État:** \" + etat,\n        color: color,\n        fields: [\n            { name: \"🌡️ Temp\", value: temp + \"°C\", inline: true },\n            { name: \"💧 Humidité\", value: hum + \"%\", inline: true },\n            { name: \"🌱 Sol\", value: sol + \"\", inline: true },\n            { name: \"☀️ Lumière\", value: lum + \"\", inline: true },\n            { name: \"📡 RSSI\", value: (d.rssi || \"N/A\") + \"dBm\", inline: true }\n        ],\n        timestamp: date.toISOString()\n    }]\n};\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 800,
-        "y": 380,
-        "wires": [
-            [
-                "640c5b88116c69f8"
-            ]
-        ]
-    },
-    {
-        "id": "640c5b88116c69f8",
-        "type": "http request",
-        "z": "f6f2187d.f17ca8",
-        "name": "Discord Webhook",
-        "method": "POST",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://discord.com/api/webhooks/1463108049584525354/eRmSL8-NrXVGkJtz8R3jnm8MNjSEqOyXqagY8z9xAe6AxStJAfI4O9WBPog3oZPDE-rR",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 1010,
-        "y": 380,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "f89ed0b5c7679b5f",
@@ -267,5 +224,54 @@
         "x": 1200,
         "y": 240,
         "wires": []
+    },
+    {
+        "id": "gen_trigger",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "Auto Trigger (5s)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 590,
+        "y": 80,
+        "wires": [
+            [
+                "gen_random_data"
+            ]
+        ]
+    },
+    {
+        "id": "gen_random_data",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Générateur Aléatoire",
+        "func": "// Liste d'IDs fictifs\nconst plantIds = [\"Plante_Salon\", \"Plante_Cuisine\"];\n\n// Fonction helper\nfunction getRandom(min, max) {\n    return Math.random() * (max - min) + min;\n}\n\nconst randomId = plantIds[Math.floor(Math.random() * plantIds.length)];\n\n// Simulation des données capteurs\nmsg.payload = {\n    success: true,\n    id: randomId,\n    temperature: getRandom(0, 50).toFixed(1),\n    humidite: Math.floor(getRandom(0, 100)),\n    lumiere: Math.floor(getRandom(0, 1023)),\n    sol: Math.floor(getRandom(0, 950)),\n    rssi: Math.floor(getRandom(-85, -55))\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 80,
+        "wires": [
+            [
+                "c1b03763374f0eb9"
+            ]
+        ]
     }
 ]
