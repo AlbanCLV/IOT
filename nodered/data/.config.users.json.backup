@@ -19,7 +19,7 @@
             "dialog": {
                 "export": {
                     "pretty": true,
-                    "json-view": true
+                    "json-view": false
                 }
             }
         }

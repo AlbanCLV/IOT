@@ -242,7 +242,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "{\"success\":true,\"id\":\"A1-42\",\"temperature\":22.5,\"humidite\":50,\"lumiere\":900,\"sol\":20,\"rssi\":-65}",
+        "payload": "{\"success\":true,\"id\":\"A1-42\",\"temperature\":15,\"humidite\":70,\"lumiere\":700,\"sol\":75,\"rssi\":-65}",
         "payloadType": "json",
         "x": 530,
         "y": 140,
